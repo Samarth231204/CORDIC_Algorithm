@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-
+`include "CORDIC.v"
 module CORDIC_Testbench;
     parameter width = 16;
     reg clock;
